@@ -1,9 +1,5 @@
 # Googling
 
-Sources:
-- [https://www.youtube.com/watch?v=z8_qz938wFU](https://www.youtube.com/watch?v=z8_qz938wFU)
-- [https://support.google.com/websearch/answer/2466433?hl=en](https://support.google.com/websearch/answer/2466433?hl=en)
-
 [***Table of Contents***](/README.md)
 
 You can google a lot more precisely if you know what you're doing. Google
@@ -11,16 +7,14 @@ interprets searches based on a very complex set of rules and suggests the best
 possible result, but sometimes it just serves up garbage, it makes general
 guesses on what you really mean.
 
-1. You can limit search results to particular times. After doing a search,
-   click on `Tools`, then click on `Any time` to specify the time range.
+1. You can limit search results to particular times. After seaching,
+   click on `Tools`, then `Any time` to specify the time range.
 
 1. To make a precise search, use `" "`:
    ```
    "std :: list"
    ```
-   If you don't it like so, you might get something nasty instead.
-
-1. To can exclude word from your search with `-`:
+1. To can exclude words from your search with `-`:
    ```
    "std :: list" -transmitted
    ```
@@ -32,7 +26,7 @@ guesses on what you really mean.
    ```
    filetype:pdf "hacking"
    ```
-1. To specify a specific site:
+1. To specify a site:
    ```
    site:https://www.zoopraha.cz/ "panda"
    ```
@@ -44,3 +38,12 @@ guesses on what you really mean.
    ```
    https://www.google.com/advanced_search
    ```
+---
+I haven't been able to find any reliable extensive documentation on the topic.
+Continuing to explore it further seems unnecessary now, maybe I'll come back to
+it later. This is the best thing I've managed to find:  
+[https://support.google.com/websearch/answer/2466433](https://support.google.com/websearch/answer/2466433).
+
+Sources:
+- [https://www.youtube.com/watch?v=z8_qz938wFU](https://www.youtube.com/watch?v=z8_qz938wFU)
+- [https://support.google.com/websearch/answer/2466433?hl=en](https://support.google.com/websearch/answer/2466433?hl=en)
